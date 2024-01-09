@@ -8,7 +8,7 @@ window.onload = () => {
     //rewrite in JQuery
 
     let div = document.createElement("div");
-    div.classList.add("key", index < 10 ? "black-key" : "white-key");
+    div.classList.add("key", index <= 10 ? "black-key" : "white-key");
     pianoContainer[0].appendChild(div);
   }
 };

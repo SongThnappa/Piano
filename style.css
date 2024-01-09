@@ -15,7 +15,16 @@ body {
     box-shadow: 0 2em 4em rgba(7, 0, 53, 0.25);
   }
 
-  .piano-container:hover {
+  .white-key:hover {
     border: 2px solid white;
+  }
+  .white-key {
+    width: 4.37em;
+    height: 17.5em;
+    background-color: #ffffff;
+    border-radius: 0 0 0.3em 0.3em;
+    border: 2px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
   }
 }
